@@ -1,0 +1,28 @@
+/**index.wxss some content moved to app.wxss**/
+
+.recordBtn {
+    border-radius: 50%;
+    border: 1px solid #ccc!important;
+    padding: 20px; 
+    width: 300rpx;
+    height: 300rpx;  
+    background: rgba(255, 255, 255, 0); 
+    position: fixed;
+    bottom:100rpx;
+    box-shadow: 10px 10px 5px #888888;
+}   
+.recordBtn:active {
+    background: #888888;
+    /* border-radius: 100rpx;
+    padding: 20px; 
+    width: 600rpx;
+    height: 600rpx;   */
+}   
+.recordBtnText {
+    width: 100%;
+    line-height: 30px;
+    font-size: 34rpx;
+    color: white;
+    opacity:1;
+    display: block;
+}

@@ -1,0 +1,72 @@
+<view class='bannerWrap'>
+   
+    <swiper class='bannerSwiper' previous-margin="54rpx" next-margin='54rpx' indicator-dots="true" indicator-color='#B5B5B5' indicator-active-color='#fff' interval='3000' duration='500' bindchange='onChange' circular='true'>
+      <block wx:for="{{banner}}">
+        <swiper-item>
+          <image class="{{index==xindex?'imageBanner':'imageBanner_small'}}" src="{{item}}" id='{{item.url}}' bindtap='imageClick'></image>
+        </swiper-item>
+      </block>
+    </swiper>
+</view>
+
+<view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">每日一句</view>
+            <view class="weui-panel__bd">
+                <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="{{icon[0]}}" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">{{title[0]}}</view>
+                        <view class="weui-media-box__desc">{{cont[0]}}</view>
+                    </view>
+                </navigator>
+                <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="{{icon[1]}}" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">{{title[1]}}</view>
+                        <view class="weui-media-box__desc">{{cont[1]}}</view>
+                    </view>
+                </navigator>
+            </view>
+            <view class="weui-panel__ft">
+                <view class="weui-cell weui-cell_access weui-cell_link">
+                    <view class="weui-cell__bd">查看更多</view>
+                    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                </view>
+            </view>
+        </view>
+        <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">专项训练</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text" bindtap='jumptolist'>
+                    <view class="weui-media-box__title weui-media-box__title_in-text" >单词练习</view>
+                    <view class="weui-media-box__desc">声母是音节开头的部分</view>
+                </view>
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">长句，难句练习</view>
+                    <view class="weui-media-box__desc">声母、字调以外的部分</view>
+                </view>
+            </view>
+            <view class="weui-panel__ft">
+                <view class="weui-cell weui-cell_access weui-cell_link">
+                    <view class="weui-cell__bd">查看更多</view>
+                    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                </view>
+            </view>
+        </view>
+
+<!-- <view class="picJZ">
+    <image style="position:relative;bottom:120rpx;width:400px" mode="aspectFit" src="https://hotpot.club/pos/wx-static/logo-1.png"></image>
+</view>
+<button class="beginBtn" bindtap="jumptorecord">
+    <text class="beginBtntext">我要录音</text>
+</button>
+<button class="beginBtn" bindtap="jumptolisten" style="margin-top: 80rpx">
+    <text class="beginBtntext">我要听音</text>
+</button>
+<button class="beginBtn" bindtap="jumptotrain" style="margin-top: 80rpx">
+    <text class="beginBtntext">我要训练</text>
+</button> -->

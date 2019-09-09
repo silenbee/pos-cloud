@@ -1,0 +1,74 @@
+<view class="amountBg">
+  <view class="account">
+    <button class='loginbtn' size='mini' plain='true' wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="userInfoHandler" style='font-weight:bold;'>登录</button>
+    <view class='column'>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </view>
+  </view>
+</view>
+
+<view class="item">
+  <view class="img">
+    <image src="https://qcloudtest-1256335255.cos.ap-guangzhou.myqcloud.com/xiaoxi.png" style="width:20px;height:24px;"></image>
+  </view>
+  <view class="name">消息</view>
+  <view class="detail">
+    <text>></text>
+  </view>
+</view>
+
+<view class="line"></view>
+
+<view class="item">
+  <view class="img">
+    <image src="https://qcloudtest-1256335255.cos.ap-guangzhou.myqcloud.com/shoucang.png" style="width:20px;height:24px;"></image>
+  </view>
+  <view class="name">收藏</view>
+  <view class="detail">
+    <text>></text>
+  </view>
+</view>
+<view class="line"></view>
+
+<view class="item">
+  <view class="img">
+    <image src="https://gin-1256118453.cos.ap-shanghai.myqcloud.com/yuefa_pic/wzgl.png" style="width:20px;height:24px;"></image>
+  </view>
+  <view class="name">文章管理</view>
+  <view class="detail">
+    <text>></text>
+  </view>
+</view>
+<view class="line"></view>
+<view class="item" >
+  <view class="img">
+    <image src="https://gin-1256118453.cos.ap-shanghai.myqcloud.com/yuefa_pic/yhkb.jpg" style="width:20px;height:24px;"></image>
+  </view>
+  <view class="name">优惠卡包</view>
+  <view class="detail">
+    <text>></text>
+  </view>
+</view>
+<view class="line"></view>
+<view class="item">
+  <view class="img">
+    <image src="https://gin-1256118453.cos.ap-shanghai.myqcloud.com/yuefa_pic/yqhy.png" style="width:20px;height:24px;"></image>
+  </view>
+  <view class="name">邀请好友</view>
+  <view class="detail">
+    <text>></text>
+  </view>
+</view>
+<view class="line"></view>
+<view class="item">
+  <view class="img">
+    <image src="https://gin-1256118453.cos.ap-shanghai.myqcloud.com/yuefa_pic/fk.png" style="width:20px;height:24px;margin-top:10px;"></image>
+  </view>
+  <view class="name">反馈</view>
+  <view class="detail">
+    <text>></text>
+  </view>
+</view>
+<view class="line"></view>
+

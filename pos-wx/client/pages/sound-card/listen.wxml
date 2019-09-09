@@ -1,0 +1,16 @@
+<!--pages/index/listen.wxml-->
+<audio src="{{audioSrc}}" id="sound"></audio>
+<view class="picJZ">
+<image style="position:relative;bottom:120rpx;width:400px" mode="aspectFit" src="https://hotpot.club/pos/wx-static/logo-1.png"></image>
+</view>
+<view class="main">
+  <view class="picbox">
+    <text  wx:if="{{shuru}}">读取您的声波图</text>
+    <canvas wx:if="{{shuchu}}" canvas-id="myCanvas" style=""/>
+
+  </view>
+  <view class="picbox-2">
+  <button class="albumbtn" bindtap='doUploadWaveformal'><image style="width:45px;height:45px;vertical-align:middle;display:table-cell;" mode="aspectFit" src="https://hotpot.club/pos/wx-static/album-1.png"></image><text style="color:#8a8a8a">相册</text></button>
+  <button class="albumbtn" bindtap='doUploadWaveformca'><image style="width:45px;height:45px;vertical-align:middle;display:table-cell;" src="https://hotpot.club/pos/wx-static/camera.png"></image><text style="color:#8a8a8a">照相</text></button>
+  </view>
+</view>

@@ -1,0 +1,49 @@
+/* pages/index/listen.wxss */
+
+
+.picbox {
+  width:75%;
+  height:480rpx;
+  background: rgba(255, 255, 255, 0.3);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:15px 15px 0px 0px;
+  margin:0;
+}
+
+.picbox-2 {
+  width:75%;
+  height:100rpx;
+  background: rgba(255, 255, 255, 0);
+  display:flex;
+  flex-direction:row;
+}
+
+
+.picbox text{
+  color:white;
+}
+
+.albumbtn{
+  width:50%;
+  background:#fdfdfd;
+  display:table;
+}
+
+.main {
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  position:relative;
+  top:-200rpx;
+}
+
+.picJZ {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

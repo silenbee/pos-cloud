@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="uploader">
+        <view class="uploader-text" bindtap="doUploadWaveform">
+            <text>点击此处选择声波图片并还原声音</text>
+        </view>
+         <!-- <view class="uploader-container" wx:if="{{audioSrc}}">
+            <audio controls
+                src="{{audioSrc}}"
+            ></audio>
+        </view>  -->
+    </view>
+
+    <view class="uploader">
+                <view class="uploader-container" wx:if="{{waveformSrc}}">
+            <image
+                class="uploader-image"
+                src="{{waveformSrc}}"
+                mode="aspectFit"
+                bindtap="saveImg"
+            ></image>
+
+        </view>
+    </view>
+        <button class="recordBtn" bindtouchstart='doStartRecord'      bindtouchend='doEndRecord'>
+        <text class='recordBtnText'>
+        按住这个按钮录制并获取声波图
+        </text>
+        </button>
+        
+</view>

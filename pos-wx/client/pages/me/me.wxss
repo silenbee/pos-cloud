@@ -1,0 +1,93 @@
+.amountBg {
+  height: 140px;
+  background-image: url("https://gin-1256118453.cos.ap-shanghai.myqcloud.com/yuefa_pic/timg.jpg");
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.img1 {
+  margin-left: 20px;
+}
+
+.account {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  width: 15px;
+  color: #fff;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+}
+
+.img {
+  margin-left: 10px;
+  line-height: 50px;
+}
+
+.name {
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  font-size: 15px;
+}
+
+.detail {
+  font-size: 15px;
+  position: absolute;
+  right: 10px;
+  height: 50px;
+  line-height: 50px;
+  color: #888;
+}
+
+.line {
+  border: 1px solid #ccc;
+  opacity: 0.2;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.qubian {
+  border-style: none;
+}
+
+button[class="qubian"]::after {
+  border: 0;
+}

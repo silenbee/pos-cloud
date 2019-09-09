@@ -1,0 +1,9 @@
+<view class="picJZ">
+    <image style="position:relative;bottom:120rpx;width:400px" mode="aspectFit" src="https://hotpot.club/pos/wx-static/logo-1.png"></image>
+</view>
+<button class="beginBtn" bindtap="jumptorecord">
+    <text class="beginBtntext">我要录音</text>
+</button>
+<button class="beginBtn" bindtap="jumptolisten" style="margin-top: 80rpx">
+    <text class="beginBtntext">我要听音</text>
+</button>

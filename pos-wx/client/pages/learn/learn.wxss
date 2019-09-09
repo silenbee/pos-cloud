@@ -1,0 +1,4 @@
+/* client/pages/learn/learn.wxss */
+.weui-panel{
+  margin:25rpx;
+}

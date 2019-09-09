@@ -1,0 +1,50 @@
+<view class="weui-panel weui-panel_access">
+        <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">语气词</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text" data-opt="老师您好" bindtap="jumptoapple">
+                    <view class="weui-media-box__title weui-media-box__title_in-text" >老师您好</view>
+                    <view class="weui-media-box__desc"> n.</view>
+                </view>
+                <view class="weui-media-box weui-media-box_text" data-opt="再见" bindtap="jumptoapple">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">再见</view>
+                    <view class="weui-media-box__desc"> v.</view>
+                </view>
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">如何</view>
+                    <view class="weui-media-box__desc"> v.</view>
+                </view>
+            </view>
+            <view class="weui-panel__ft">
+                <view class="weui-cell weui-cell_access weui-cell_link">
+                    <view class="weui-cell__bd">查看更多</view>
+                    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                </view>
+            </view>
+        </view>
+  </view>
+<view class="weui-panel weui-panel_access">
+         <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">常用物词</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text" bindtap='jumptotrain'>
+                    <view class="weui-media-box__title weui-media-box__title_in-text" >香蕉</view>
+                    <view class="weui-media-box__desc"> n.</view>
+                </view>
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">篮球</view>
+                    <view class="weui-media-box__desc"> n.</view>
+                </view>
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">气球</view>
+                    <view class="weui-media-box__desc"> n.</view>
+                </view>
+            </view>
+            <view class="weui-panel__ft">
+                <view class="weui-cell weui-cell_access weui-cell_link">
+                    <view class="weui-cell__bd">查看更多</view>
+                    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                </view>
+            </view>
+        </view>
+  </view>

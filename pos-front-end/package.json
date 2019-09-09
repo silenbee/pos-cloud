@@ -1,0 +1,22 @@
+{
+  "name": "pos-front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "xsthunder",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.12",
+    "angular": "^1.6.7",
+    "angular-animate": "^1.6.10",
+    "angular-aria": "^1.6.7",
+    "angular-cookies": "^1.6.9",
+    "angular-material": "^1.1.5",
+    "angular-messages": "^1.6.7",
+    "koa": "^2.4.1",
+    "koa-static": "^4.0.3"
+  }
+}

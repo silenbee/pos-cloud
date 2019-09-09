@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( waveform-compare )
+set (OpenCV_DIR "/home/ubuntu/installation/opencv2/release/")
+find_package( OpenCV REQUIRED )
+add_executable( waveform-compare waveform-compare.cpp )
+target_link_libraries( waveform-compare ${OpenCV_LIBS} )

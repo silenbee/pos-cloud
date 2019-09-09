@@ -1,0 +1,187 @@
+@import 'weui.wxss';
+/**app.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+} 
+
+/**index.wxss**/
+page {
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url(http://101.132.184.238:3000/upload_img/066bf2a6bfff31f219586908a63fb433.jpg); 
+    background-size: 100% 100%;
+}
+
+.picJZ {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.MBstore{
+  display:flex;
+  margin:0px;
+  position:relative;
+  bottom:250rpx;
+  color:white;
+  justify-content:flex-end;
+  align-items:flex-end;
+  position:relative;
+  right:20rpx;
+  
+}
+.userinfo, .uploader, .tunnel {
+
+    height: 140rpx;
+    width: 100%;
+    background: #FFF;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all 300ms ease;
+}
+
+.userinfo-avatar {
+    width: 100rpx;
+    height: 100rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+
+.userinfo-nickname {
+    font-size: 32rpx;
+    color: #007AFF;
+    background-color: white; 
+}
+
+.userinfo-nickname::after {
+  border: none;
+}
+
+.uploader, .tunnel {
+    height: auto;
+    padding: 0 0 0 40rpx;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;   
+    background: rgba(255, 255, 255, 0);          
+}
+
+.uploader-text, .tunnel-text {
+    width: 100%;
+    line-height: 52px;
+    font-size: 34rpx;
+    color: #007AFF;
+}
+
+.uploader-container {
+    width: 100%;
+    height: 400rpx;
+    padding: 20rpx 20rpx 20rpx 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0); 
+    
+}
+
+.uploader-image {
+    width: 100%;
+    height: 360rpx;
+}
+
+.tunnel {
+    padding: 0 0 0 40rpx;
+}
+
+.tunnel-text {
+    position: relative;
+    color: #222;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.tunnel-text:first-child {
+    border-top: none;
+}
+
+.tunnel-switch {
+    position: absolute;
+    right: 20rpx;
+    top: -2rpx;
+}
+
+.disable {
+    color: #888;
+}
+
+.service {
+    position: fixed;
+    right: 40rpx;
+    bottom: 40rpx;
+    width: 140rpx;
+    height: 140rpx;
+    border-radius: 50%;
+    background: linear-gradient(#007AFF, #0063ce);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    transition: all 300ms ease;
+}
+
+.service-button {
+    position: absolute;
+    top: 40rpx;
+}
+
+.service:active {
+    box-shadow: none;
+}
+
+.request-text {
+    padding: 20rpx 0;
+    font-size: 24rpx;
+    line-height: 36rpx;
+    word-break: break-all;
+}
+
+.recordBtn {
+    border-radius: 50%;
+    border: 1px solid #ccc!important;
+    padding: 20px; 
+    width: 200rpx;
+    height: 200rpx;  
+    background: rgba(255, 255, 255, 0); 
+    position: fixed;
+    bottom:100rpx;
+    box-shadow: 10px 10px 5px #888888;
+}   
+.recordBtn:active {
+    background: #888888;
+    /* border-radius: 100rpx;
+    padding: 20px; 
+    width: 600rpx;
+    height: 600rpx;   */
+}   
+.recordBtnText {
+    width: 100%;
+    line-height: 30px;
+    font-size: 34rpx;
+    color: white;
+    opacity:1;
+    display: block;
+}

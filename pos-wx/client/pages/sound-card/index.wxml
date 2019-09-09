@@ -1,0 +1,24 @@
+<!--index.wxml-->
+
+<view class="picJZ" bindtap='saveImg'>
+    <image style="position:relative;bottom:120rpx;width:400px" mode="aspectFit" src="https://hotpot.club/pos/wx-static/logo-1.png"></image>
+</view>
+<!-- <view class="MBstore" bindtap="jumptostore">
+<image style="width:50rpx;height:50rpx;position:relative;right:5rpx;" src="../static/store.png"></image>
+<text>模版商城</text>
+</view> -->
+
+<view class="container">
+    <view class="uploader">
+        <view class="uploader-container" wx:if="{{waveformSrc}}">
+            <!--<image class="uploader-image" src="{{waveformSrc}}" mode="aspectFit" bindtap="canvasInit"></image>-->
+            <canvas canvas-id="uploader-canvas" style="" bindtap="saveImg"/>
+        </view>
+    </view>
+    <button class="recordBtn" bindtouchstart='doStartRecord' bindtouchend='doEndRecord'>
+        <image style="width:50px;height:50px;" mode="aspectFit" src="https://hotpot.club/pos/wx-static/mic.png"></image>
+        <text style="position:relative;bottom:20rpx;" class='recordBtnText'>按住录音</text>
+    </button>
+</view>
+
+<canvas canvas-id="generate-canvas" style="width:720px;height:510px" wx:if="{{isGenerating}}"/>

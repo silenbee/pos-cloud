@@ -1,0 +1,46 @@
+/* pages/index/store.wxss */
+
+
+.picJZ {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.MBarea{
+  width:100%;
+  height:600rpx;
+  background-color: white;
+  position: relative;
+  bottom:230rpx;
+}
+
+.btnbar{
+  background-color: white;
+  height:40px;
+  width:100%;
+  position: absolute;
+  bottom:0;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnbartext{
+  color:#13277a;
+}
+
+.choosebar{
+  background-color:darkslateblue;
+  height:100px;
+  width:100%;
+  position:absolute;
+  bottom:40px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+}
+

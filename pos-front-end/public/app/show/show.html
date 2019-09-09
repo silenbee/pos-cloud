@@ -1,0 +1,32 @@
+<md-content layout="row" layout-fill>
+    <md-sidenav
+            class="md-sidenav-left"
+            md-component-id="left"
+            md-is-locked-open="$mdMedia('gt-md')"
+            md-whiteframe="4">
+        <div>
+            <md-toolbar >
+                <h1 class="md-toolbar-tools">Panel</h1>
+            </md-toolbar>
+        </div>
+        <md-content layout-padding ng-controller="leftCtrl">
+            <md-list>
+                <md-list-item ng-click="goto(router.name)" ng-repeat="router in routers">
+                    {{router.alias||router.name}}
+                </md-list-item>
+            </md-list>
+            <md-content layout="column" layout-align="spacebetween center">
+                <md-button ng-click="close()" class="md-warn md-raised" hide-gt-md>
+                    Close
+                </md-button>
+                <!--<md-button ng-click="logout()" class="md-raised" >-->
+                    <!--Logout-->
+                <!--</md-button>-->
+            </md-content>
+        </md-content>
+    </md-sidenav>
+    <md-content layout-fill layout="column">
+        <xx-toolbar></xx-toolbar>
+        <ui-view layout-fill flex></ui-view>
+    </md-content>
+</md-content>

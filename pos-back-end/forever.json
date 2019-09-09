@@ -1,0 +1,10 @@
+{
+	"uid":"pos",
+	"append":true,
+	"watch": true,
+	"script":"index.js",
+	"sourceDir":"/home/ubuntu/git/pos-back-end/",
+	"outFile":"/home/ubuntu/git/pos-back-end/log/output.log",
+	"errFile":"/home/ubuntu/git/pos-back-end/log/error.log",
+	"logFile":"/home/ubuntu/git/pos-back-end/log/log.log"
+}

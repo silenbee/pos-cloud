@@ -1,0 +1,59 @@
+<!--index.wxml-->
+<audio id="sound" src="{{standardsound}}"></audio>
+<view class="picJZ" bindtap='saveImg'>
+    <image style="width:100%;height:200rpx" mode="aspectFit" src="https://hotpot.club/pos/wx-static/logo-1.png"></image>
+</view>
+<!-- <view class="MBstore" bindtap="jumptostore">
+<image style="width:50rpx;height:50rpx;position:relative;right:5rpx;" src="../static/store.png"></image>
+<text>模版商城</text>
+</view> -->
+
+<view class="container">
+    <view id="loading" hidden="{{loadingHidden}}">
+        <view id="loading-center">
+            <view id="loading-center-absolute">
+                <view class="object" id="object_one"></view>
+                <view class="object" id="object_two"></view>
+                <view class="object" id="object_three"></view>
+                <view class="object" id="object_four"></view>
+                <view class="object" id="object_five"></view>
+                <view class="object" id="object_six"></view>
+                <view class="object" id="object_seven"></view>
+                <view class="object" id="object_eight"></view>
+                <view class="object" id="object_big"></view>
+            </view>
+        </view>
+    </view>
+</view>
+
+
+
+<view class="container">
+    <view class="uploader1">
+        <view class="uploader-container1">
+            <image class="uploader-image" src="{{standardwave}}"  ></image>
+            <view class="text-box" wx:if="!{{waveformSrc}}">
+              <text style='font-size:130rpx'>{{character}}</text>
+            </view>
+        </view>
+    </view>
+    <view class="uploader2">
+        <view class="uploader-container1" wx:if="{{waveformSrc}}">
+            <image class="uploader-image" src="{{waveformSrc}}" bindtap="canvasInit"></image>
+            <!-- <canvas canvas-id="uploader-canvas" style="" bindtap="saveImg"/> -->
+        </view>
+    </view>
+    <view class='btngroup'>
+      <button class="recordBtn" style="margin-left:40rpx;" bindtap='playstandard'>
+          <image style="width:30px;height:30px;" mode="aspectFit" src="http://101.132.184.238:3000/upload_img/play.png"></image>
+          <text style="position:relative;bottom:25rpx;font-size:25rpx" class='recordBtnText'>播放音乐</text>
+      </button>
+
+      <button class="recordBtn" hover-class="recordBtn1" style="margin-right:40rpx;" bindtouchstart='doStartRecord' bindtouchend='doEndRecord'>
+          <image style="width:30px;height:30px;" mode="aspectFit" src="https://hotpot.club/pos/wx-static/mic.png"></image>
+          <text style="position:relative;bottom:25rpx;font-size:25rpx" class='recordBtnText'>按住录音</text>
+      </button>
+    </view>
+</view>
+
+<canvas canvas-id="generate-canvas" style="width:720px;height:510px" wx:if="{{isGenerating}}"/>

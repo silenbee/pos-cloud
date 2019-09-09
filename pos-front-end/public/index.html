@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title>POS</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="renderer" content="webkit">
+	<link rel="stylesheet" href="./angular-material/angular-material.min.css"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css"/>
+</head>
+<body class="hidey">
+	<ui-view></ui-view>
+	<!--google remote library-->
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>-->
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.min.js"></script>-->
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-aria.min.js"></script>-->
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-messages.min.js"></script>-->
+	<!--end of google remote library-->
+    <!--local library-->
+	<script src="./angular/angular.min.js"></script>
+	<script src="./angular-material/angular-material.min.js"></script>
+	<script src="./angular-animate/angular-animate.min.js"></script>
+	<script src="./angular-aria/angular-aria.min.js"></script>
+	<script src="./angular-messages/angular-messages.min.js"></script>
+	<script src="./@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+	<script src="./angular-cookies/angular-cookies.min.js"></script>
+	<script src="./angular-animate/angular-animate.min.js"></script>
+
+	<script src="./angular-cookies/angular-cookies.min.js"></script>
+	<!--end of local library-->
+	<!--basic setting-->
+	<script src="./app/app.module.js"></script>
+	<script src="./app/app.route.js"></script>
+	<script src="./app/service/ROUTER_CONSTANT.js"></script>
+	<script src="./app/service/UrlConstant.js"></script>
+	<script src="./app/service/UserService.js"></script>
+	<script src="./app/service/Util.js"></script>
+	<script src="./app/service/MockHttp.js"></script>
+	<script src="./app/APP_CONFIGURE.js"></script>
+	<!--end of basic setting-->
+
+	<!--basic component -->
+	<script src="./app/toolbar/toolbar.component.js"></script>
+	<script src="./app/show/leftCtrl.js"></script>
+	<script src="./app/show/show.component.js"></script>
+	<!--end of basic component-->
+
+	<!--following is customized component-->
+	<script src="./app/show/home/home.component.js"></script>
+	<script src="./app/show/home/home.factory.js"></script>
+	<script src="./app/show/get-audio/get-audio.component.js"></script>
+	<!--end of customized component-->
+</body>
+</html> 

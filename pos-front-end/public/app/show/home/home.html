@@ -1,0 +1,13 @@
+<md-content layout-fill>
+	<!---- add layout padding only in sub dom node ---->
+	<md-content layout-padding>
+		<h1>获取声波图</h1>
+		<div>
+		<md-button class='md-primary md-raised' ng-click="openFile()">
+			上传一个声音文件(mp3)
+		</md-button>
+		</div>
+		<img class='waveform' ng-if='waveformUrl' ng-src='{{waveformUrl}}'>
+		<input class='hide' type="file" id="audiofile" accept="audio/*" capture>
+	</md-content>
+</md-content>

@@ -1,0 +1,29 @@
+<md-content layout-fill>
+	<!---- add layout padding only in sub dom node ---->
+	<md-content layout-padding>
+		<h1>获取声音</h1>
+		<div>
+		<md-button class='md-primary md-raised' ng-click="openFile()">
+			上传一个声波图像
+		</md-button>
+		</div>
+		<audio  ng-if='audioUrl' ng-src='{{audioUrl}}' controls="controls"  preload=true autoplay=true>audio tag is not support, update your broswer</audio>
+		<input class='hide' type="file" id="waveformfile" accept="image/*" capture="environment">
+		<div>
+		<a ng-if='audioUrl' href='{{audioUrl}}'>try this if the player doesnt' work</a>
+		</div>
+	</md-content>
+	<md-content layout-padding>
+		<h1>获取声音</h1>
+		<div>
+		<md-button class='md-primary md-raised' ng-click="openFile1()">
+			上传一个场景图像
+		</md-button>
+		</div>
+		<audio  ng-if='audioUrl1' ng-src='{{audioUrl1}}' controls="controls"  preload=true autoplay=true>audio tag is not support, update your broswer</audio>
+		<input class='hide' type="file" id="waveformfile1" accept="image/*" capture="environment">
+		<div>
+		<a ng-if='audioUrl1' href='{{audioUrl1}}'>try this if the player doesnt' work</a>
+		</div>
+	</md-content>
+</md-content>

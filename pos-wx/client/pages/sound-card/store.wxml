@@ -1,0 +1,29 @@
+<!--pages/index/store.wxml-->
+<view class="picJZ">
+<image style="position:relative;bottom:120rpx;width:350px;padding:0px;margin:0px;" mode="aspectFit" src="https://hotpot.club/pos/wx-static/logo-1.png"></image>
+</view>
+
+<!-- <view class="MBarea">
+</view> -->
+    <view class="uploader">
+        <view class="uploader-container" >
+            <!--<image class="uploader-image" src="{{waveformSrc}}" mode="aspectFit" bindtap="canvasInit"></image>-->
+            <canvas canvas-id="store-canvas" style="" bindtap="saveImg"/>
+        </view>
+    </view>
+
+<view class="choosebar">
+<image style="height:80%;" src="../static/model1.jpg" data-template-path='../static/model1.jpg' bindtap='chooseTemplate'></image>
+<image style="height:80%;" src="../static/model2.jpg" data-template-path='../static/model2.jpg' bindtap='chooseTemplate'></image>
+<!-- <image style="height:80%;" src="../static/model3.jpg" data-template-path='../static/model3.jpg' bindtap='chooseTemplate'></image>  -->
+</view>
+
+<!-- <view class="btnbar">
+<image style="width:30px;height:30px;"src="../static/wrong.png"></image>
+<text class="btnbartext">节日祝福</text>
+<text class="btnbartext">特殊纪念</text>
+<text class="btnbartext">明星周边</text>
+<image style="width:30px;height:30px;"src="../static/right.png"></image>
+</view> -->
+
+<canvas canvas-id="generate-canvas" style="width:720px;height:510px" wx:if="{{isGenerating}}"/>

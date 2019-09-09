@@ -1,0 +1,16 @@
+p.distance{
+	text-align: right;
+}
+.hidey{
+	overflow-y: hidden!important;
+}
+.hidex{
+	overflow-x: hidden!important;
+}
+.hide{
+	display: none
+}
+.waveform{
+	max-width: 100%;
+	box-sizing: border-box;
+}

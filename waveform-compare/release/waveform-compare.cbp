@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="waveform-compare"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\opencv\;CMake Files\..\opencv\opencv\;CMake Files\..\opencv\opencv\sources\;CMake Files\..\opencv\opencv\sources\build\;CMake Files\..\opencv\opencv\sources\build\install\;CMake Files\..\opencv\opencv\sources\build\install\x86\;CMake Files\..\opencv\opencv\sources\build\install\x86\mingw\;CMake Files\..\opencv\opencv\sources\build\install\x86\mingw\lib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/project/waveform-compare/release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;E:/project/waveform-compare/release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;E:/project/waveform-compare/release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;E:/project/waveform-compare/release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;E:/project/waveform-compare/release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="waveform-compare">
+				<Option output="E:/project/waveform-compare/release/waveform-compare.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/project/waveform-compare/release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/project/opencv/opencv/sources/build/install/include"/>
+					<Add directory="E:/project/opencv/opencv/sources/build/install/include/opencv"/>
+					<Add directory="D:/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="D:/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="D:/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="D:/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="D:/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="D:/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;E:/project/waveform-compare/release/Makefile&quot;  VERBOSE=1 waveform-compare"/>
+					<CompileFile command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;E:/project/waveform-compare/release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;E:/project/waveform-compare/release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;E:/project/waveform-compare/release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="waveform-compare/fast">
+				<Option output="E:/project/waveform-compare/release/waveform-compare.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/project/waveform-compare/release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/project/opencv/opencv/sources/build/install/include"/>
+					<Add directory="E:/project/opencv/opencv/sources/build/install/include/opencv"/>
+					<Add directory="D:/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="D:/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="D:/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="D:/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="D:/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="D:/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;E:/project/waveform-compare/release/Makefile&quot;  VERBOSE=1 waveform-compare/fast"/>
+					<CompileFile command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;E:/project/waveform-compare/release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;E:/project/waveform-compare/release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;E:/project/waveform-compare/release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/project/waveform-compare/release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;E:/project/waveform-compare/release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;E:/project/waveform-compare/release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;E:/project/waveform-compare/release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;E:/project/waveform-compare/release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/project/waveform-compare/release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;E:/project/waveform-compare/release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;E:/project/waveform-compare/release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;E:/project/waveform-compare/release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;E:/project/waveform-compare/release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/project/waveform-compare/waveform-compare.cpp">
+			<Option target="waveform-compare"/>
+		</Unit>
+		<Unit filename="E:/project/waveform-compare/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/project/waveform-compare/../opencv/opencv/sources/build/install/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\opencv\sources\build\install\"/>
+		</Unit>
+		<Unit filename="E:/project/waveform-compare/../opencv/opencv/sources/build/install/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\opencv\sources\build\install\"/>
+		</Unit>
+		<Unit filename="E:/project/waveform-compare/../opencv/opencv/sources/build/install/x86/mingw/lib/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\opencv\sources\build\install\x86\mingw\lib\"/>
+		</Unit>
+		<Unit filename="E:/project/waveform-compare/../opencv/opencv/sources/build/install/x86/mingw/lib/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\opencv\sources\build\install\x86\mingw\lib\"/>
+		</Unit>
+		<Unit filename="E:/project/waveform-compare/../opencv/opencv/sources/build/install/x86/mingw/lib/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\opencv\sources\build\install\x86\mingw\lib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

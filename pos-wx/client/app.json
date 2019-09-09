@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/begin",
+    "pages/index/index",
+    "pages/index/listen",
+    "pages/index/store",
+    "pages/index/test",
+    "pages/index/train",
+    "pages/me/me",
+    "pages/sound-card/begin",
+    "pages/sound-card/index",
+    "pages/sound-card/listen",
+    "pages/learn/learn"
+  ],
+  "window": {
+    "backgroundColor": "#FFFAFA",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2c5583",
+    "navigationBarTitleText": "POS声音密码",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#D53E37",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/begin",
+        "text": "首页",
+        "iconPath": "images/home-0.png",
+        "selectedIconPath": "images/home-1.png"
+      },
+      {
+        "pagePath": "pages/index/train",
+        "text": "发现",
+        "iconPath": "images/expl-0.png",
+        "selectedIconPath": "images/expl-1.png"
+      },
+      {
+        "pagePath": "pages/sound-card/begin",
+        "text": "订单",
+        "iconPath": "images/myorder-0.png",
+        "selectedIconPath": "images/myorder-1.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/user-0.png",
+        "selectedIconPath": "images/user-1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

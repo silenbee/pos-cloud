@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( waveform-compare )
+set (OpenCV_DIR "E:\\project\\opencv\\opencv\\sources\\build\\install\\")
+find_package( OpenCV REQUIRED )
+add_executable( waveform-compare waveform-compare.cpp )
+target_link_libraries( waveform-compare ${OpenCV_LIBS} )
