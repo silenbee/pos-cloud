@@ -1,3 +1,0 @@
-E:/project/waveform-compare/install/CMakeFiles/waveform-compare.dir
-E:/project/waveform-compare/install/CMakeFiles/edit_cache.dir
-E:/project/waveform-compare/install/CMakeFiles/rebuild_cache.dir
